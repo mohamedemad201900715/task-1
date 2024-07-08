@@ -1,0 +1,40 @@
+.box {
+  box-shadow: 0px 3.66px 36.61px 0px #0000001A;
+  height: fit-content;
+  /* min-height: 351.99px; */
+  padding: 14.3px 9.53px 14.3px 9.53px;
+  border-radius: 23.84px;
+
+}
+
+.box .title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22.25px;
+}
+
+.box .details {
+  font-size: 14.3px;
+  font-weight: 500;
+  line-height: 22.25px;
+  color: #A8A8A8;
+
+}
+
+.box .status {
+  color: #00C614;
+  background-color: #E0F8E3;
+  font-size: 12.51px;
+  font-weight: 700;
+  line-height: 13.9px;
+  padding: 6.95px;
+  border-radius: 19.07px;
+}
+
+.box .workout {
+  color: #FF3BA6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.84px;
+
+}
