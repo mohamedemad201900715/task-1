@@ -1,0 +1,55 @@
+#sidebarMenu {
+  min-height: 100vh;
+  width: 250px;
+  background-color: #FFD4EC;
+}
+
+#sidebarMenu .position-sticky {
+  height: 95vh;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+#sidebarMenu .logo {
+  height: 84px;
+}
+
+.sidebar-title {
+  font-size: 26.58px;
+  font-weight: 700;
+  color: #FF3CA6;
+}
+
+.list-group {
+  width: 80%;
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+.list-group-item span {
+  color: #FF3BA6;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+}
+
+.selected {
+  background-color: #FFFFFF;
+}
+
+.p-1-5 {
+  padding: 13px 8px;
+}
+
+.logout {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: #FF3BA6;
+}
