@@ -1,0 +1,101 @@
+.form {
+  width: 879px;
+  height: fit-content;
+  gap: 0px;
+  border-radius: 14px;
+  background: rgba(244, 244, 244, 1);
+}
+
+.txt-area {
+  width: 844.29px;
+  height: 62.43px;
+  padding: 13.97px 11.18px 13.97px 11.18px;
+  gap: 9.32px;
+  border-radius: 7.45px;
+  border: 1px;
+  opacity: 0px;
+  background: rgba(248, 248, 248, 1);
+}
+
+.add-question {
+  padding: 12px;
+  border-radius: 5.76px;
+  background-color: rgba(255, 232, 245, 1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.01px;
+  text-align: center;
+  color: rgba(255, 59, 166, 1);
+}
+
+.custom-radio {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 59, 166, 1);
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-radio::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-radio:checked::before {
+  background-color: rgba(255, 59, 166, 1);
+}
+
+
+.input-choise {
+  width: 50%;
+  height: 3rem;
+  padding: 11.53px;
+  border-radius: 7px;
+  border: 1px;
+  font-size: 13px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid #F8F8F8;
+  color: black
+}
+
+.input-choise+div {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.77px;
+
+}
+
+.save-btn {
+  padding: 10px 22px;
+  gap: 9.61px;
+  border-radius: 6px;
+  background: rgba(255, 59, 166, 1);
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.59px;
+}
+
+.close-btn {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22.59px;
+  width: Hug (67.42px)px;
+  padding: 12px 23px;
+  border-radius: 6px;
+  background: rgba(254, 237, 237, 1);
+  color: rgba(247, 5, 5, 1);
+
+}
