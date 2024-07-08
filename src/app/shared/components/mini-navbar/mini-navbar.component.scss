@@ -1,0 +1,18 @@
+header {
+  width: fit-content;
+  box-shadow: 0px -1px 0px 0px rgba(238, 238, 238, 1) inset;
+  padding-bottom: 0 !important;
+}
+
+.header-item {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #78878F;
+  padding: 1rem 0 0 1rem;
+}
+
+.header-item.active {
+  border-bottom: 2px solid #FF3BA6;
+  color: #FF3BA6;
+}
