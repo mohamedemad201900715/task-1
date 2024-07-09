@@ -1,0 +1,5 @@
+.boxes {
+  display: grid;
+  gap: 1%;
+  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
+}

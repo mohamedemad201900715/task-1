@@ -1,1 +1,31 @@
-<p>exercises works!</p>
+
+
+<div class="d-flex gap-3 mt-2 w-100">
+  <div
+  class="sidebar-2 d-flex flex-column gap-2 p-3 rounded-2 example-list list-options"
+  cdkDropList
+   #todoList="cdkDropList"
+    [cdkDropListData]="todo"
+    [cdkDropListConnectedTo]="[doneList]">
+      <a class="sidebar-2-item active rounded-2 p-2">
+          <p>اسحب نوع السؤال</p>
+      </a>
+      <a class="sidebar-2-item rounded-2 p-2" *ngFor="let item of todo">
+          <p cdkDrag>{{item}}</p>
+      </a>
+  </div>
+  <div class="d-flex flex-column gap-3 w-100 ">
+      <div class="drop example-list list-options"
+      cdkDropList
+      #doneList="cdkDropList"
+      [cdkDropListData]="done"
+      [cdkDropListConnectedTo]="[todoList]"
+      (cdkDropListDropped)="drop($event)">
+          <p *ngIf="done.length == 0">قم بسحب و ادراج نوع السؤال هنا ..</p>
+          <a class="sidebar-2-item rounded-2 p-2" *ngFor="let item of done">
+            <p>{{item}}</p>
+        </a>
+      </div>
+      <app-form-question *ngFor="let title of questionType ; let i = index" [title]="title" (cancel)="removeQuestion(i)"></app-form-question>
+  </div>
+</div>

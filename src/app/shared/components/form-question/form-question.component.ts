@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-form-question',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./form-question.component.scss']
 })
 export class FormQuestionComponent {
+@Input() title:string=''
+@Output() cancel = new EventEmitter<void>();
+
+  onCancel() {
+    this.cancel.emit();
+  }
 
 }

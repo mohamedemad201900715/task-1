@@ -1,11 +1,11 @@
 <div class="box mb-2 d-flex flex-column justify-content-between">
-  <img src="./assets/Image.svg" alt="">
+  <img [src]="card.image" alt="">
   <div class=" d-flex flex-column justify-content-between p-2">
-  <p class="title mt-3 mb-1">اسم المادة</p>
-  <span class="details">يتفاعل الطلاب مع المعلم بالكتابة والصوت وحل الأسئلة والاختبارات  يتفاعل الطلاب مع </span>
+  <p class="title mt-3 mb-1">{{card.name}}</p>
+  <span class="details">{{card.description}}</span>
   <div class="d-flex gap-2">
     <p class="fw-bolder ">الحالة : </p>
-    <span class="status">مكتمل</span>
+    <span class="status">{{card.status}}</span>
   </div>
   <a class="d-flex gap-2 workout">
     <p>اضافة تمرين</p>

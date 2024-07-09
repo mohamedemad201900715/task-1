@@ -1,5 +1,4 @@
 .form {
-  width: 879px;
   height: fit-content;
   gap: 0px;
   border-radius: 14px;
@@ -7,7 +6,7 @@
 }
 
 .txt-area {
-  width: 844.29px;
+  width: 98%;
   height: 62.43px;
   padding: 13.97px 11.18px 13.97px 11.18px;
   gap: 9.32px;
@@ -98,4 +97,8 @@
   background: rgba(254, 237, 237, 1);
   color: rgba(247, 5, 5, 1);
 
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
 }

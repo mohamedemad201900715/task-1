@@ -1,0 +1,30 @@
+.sidebar-2 {
+  width: 221px;
+  height: 238px;
+  background-color: #FFE8F5;
+}
+
+.sidebar-2-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.58px;
+}
+
+.sidebar-2 .active {
+  background-color: #fff;
+  color: #FF3BA6;
+}
+
+.drop {
+  width: 100%;
+  min-height: 86px;
+  padding: 14.55px 11.64px 14.55px 11.64px;
+  gap: 9.7px;
+  border-radius: 7.76px;
+  background: rgba(248, 248, 248, 1);
+  border: 1px solid rgba(255, 212, 236, 1);
+  font-size: 13.58px;
+  font-weight: 400;
+  line-height: 19.96px;
+  color: rgba(9, 36, 52, 0.67);
+}
